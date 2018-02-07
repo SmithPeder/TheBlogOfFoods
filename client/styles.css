@@ -1,0 +1,11 @@
+.headerTitle {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  color: #34495e;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 3px solid #34495e;
+}
