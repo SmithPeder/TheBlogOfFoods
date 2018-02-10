@@ -1,20 +1,21 @@
 import React from 'react';
 import style from '../styles.css';
-import Container from './Container.jsx';
+import Card from './Card.jsx';
 let data = require('../content.json');
 
 export default class App extends React.Component {
   render() {
-    let cards = data.map(function(cards) {
+    let cards = data.reverse().map(function(cards) {
       return (
-        <Container
+        <Card
           title={cards.title}
           date={cards.when}
+          time={cards.time}
           day={cards.day}
           source={cards.source}
-        >
-          {cards.content}
-        </Container>
+          content={cards.content}
+          list={cards.list}
+        />
       );
     });
 
@@ -23,7 +24,7 @@ export default class App extends React.Component {
         <div className="header">
           <h1 className="headerTitle">The Food Blog</h1>
           <div className="menuButton">
-            <img src="client/components/menu.png" />
+            <img src="client/components/icons/menu.png" />
           </div>
         </div>
         <div className="main">{cards}</div>

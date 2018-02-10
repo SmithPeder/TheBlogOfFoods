@@ -1,1 +1,104 @@
-[{"id": "20180209_221515", "title": "Eple", "when": "05-02-2018", "day": "Monday", "source": "client/images/20180209_221515.jpg", "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."}, {"id": "20180209_221737", "title": "Appelsin", "when": "06-02-2018", "day": "Tuesday", "source": "client/images/20180209_221737.jpg", "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."}, {"id": "20180210_002640", "title": "Lysbryter", "when": "10-02-2018", "day": "Saturday", "source": "client/images/20180210_002640.jpg", "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."}, {"id": "20180210_011614", "title": "Scriptet funker", "when": "10-02-2018", "day": "Saturday", "source": "client/images/20180210_011614.jpg", "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."}, {"id": "20180210_021538", "title": "Tester title-generatoren", "when": "10-02-2018", "day": "Saturday", "source": "client/images/20180210_021538.jpg", "content": "..."}]
+[
+  {
+    "id": "20180209_221515",
+    "show": true,
+    "title": "Eple",
+    "when": "09.feb 2018",
+    "time": "Kl. 22:15",
+    "day": "Friday",
+    "source": "client/images/20180209_221515.jpg",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "list": {
+      "1": "Test1",
+      "2": "Test2",
+      "3": "Test3",
+      "4": "Test4",
+      "5": "Test5"
+    }
+  },
+  {
+    "id": "20180209_221737",
+    "show": true,
+    "title": "Appelsin",
+    "when": "09.feb 2018",
+    "time": "Kl. 22:17",
+    "day": "Friday",
+    "source": "client/images/20180209_221737.jpg",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "list": {
+      "1": "Test1",
+      "2": "Test2",
+      "3": "Test3",
+      "4": "Test4",
+      "5": "Test5"
+    }
+  },
+  {
+    "id": "20180409_221737",
+    "show": true,
+    "title": "Appelsin2.0",
+    "when": "09.apr 2018",
+    "time": "Kl. 22:17",
+    "day": "Monday",
+    "source": "client/images/20180409_221737.jpg",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "list": {
+      "1": "Test1",
+      "2": "Test2",
+      "3": "Test3",
+      "4": "Test4",
+      "5": "Test5"
+    }
+  },
+  {
+    "id": "20180309_221515",
+    "show": true,
+    "title": "Eple2.0",
+    "when": "09.mar 2018",
+    "time": "Kl. 22:15",
+    "day": "Friday",
+    "source": "client/images/20180309_221515.jpg",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "list": {
+      "1": "Test1",
+      "2": "Test2",
+      "3": "Test3",
+      "4": "Test4",
+      "5": "Test5"
+    }
+  },
+  {
+    "id": "20180311_221515",
+    "show": true,
+    "title": "Test1",
+    "when": "11.mar 2018",
+    "time": "Kl. 22:15",
+    "day": "Sunday",
+    "source": "client/images/20180311_221515.jpg",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "list": {
+      "1": "Test1",
+      "2": "Test2",
+      "3": "Test3",
+      "4": "Test4",
+      "5": "Test5"
+    }
+  },
+  {
+    "id": "20180408_211737",
+    "show": true,
+    "title": "Test2",
+    "when": "08.apr 2018",
+    "time": "Kl. 21:17",
+    "day": "Sunday",
+    "source": "client/images/20180408_211737.jpg",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "list": {
+      "1": "Test1",
+      "2": "Test2",
+      "3": "Test3",
+      "4": "Test4",
+      "5": "Test5"
+    }
+  }
+]

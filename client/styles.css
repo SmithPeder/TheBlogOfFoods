@@ -4,14 +4,13 @@ body {
   font-family: 'Encode Sans Expanded', sans-serif;
   background-color: rgb(242, 242, 242);
 }
-
-.headerTitle {
-  font-family: 'Encode Sans Expanded', sans-serif;
-  color: white;
+html {
+  overflow-y: scroll;
 }
-
+/* HEADERSECTION START */
 .header {
   display: flex;
+  min-width: 500px;
   justify-content: space-between;
   align-items: center;
   padding: 0 50px 0 50px;
@@ -20,12 +19,17 @@ body {
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
 }
-
+.headerTitle {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  color: white;
+}
 .menuButton img {
   width: 40px;
   height: 40px;
 }
+/* HEADERSECTION END */
 
+/*MAINSECTION START */
 .main {
   display: flex;
   flex-wrap: wrap;
@@ -33,50 +37,67 @@ body {
   width: 100%;
 }
 
-.container {
-  width: 70%;
+.card {
+  width: 50%;
+  max-width: 1000px;
+  min-width: 700px;
   padding: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
   color: #777;
   background-color: rgb(255, 255, 255);
   margin-bottom: 20px;
-  max-height: auto;
   overflow: hidden;
+  transition: 0.2s;
   border-top: rgb(75, 119, 190) solid 5px;
 
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
 }
 
-.containerHeader {
+.cardHeader {
   font-size: 20px;
   color: #222;
   width: 100%;
   margin-bottom: 20px;
   padding-bottom: 2px;
-  border-bottom: 3px solid rgb(230, 230, 230);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.containerHeader span {
-  margin-right: 5px;
-}
-
-.containerContent {
+.cardContent {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
-.containerContent img {
+.cardContent img {
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
   border-radius: 10px;
-  margin: 20px;
+  width: 55%;
+  height: 55%;
+  margin-right: 5%;
 }
-
-.date {
+.details {
   font-size: 15px;
   color: rgb(108, 122, 137);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li {
+  margin-bottom: 7px;
+}
+
+.list h3,
+.text h3 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2px;
 }
