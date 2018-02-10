@@ -6,11 +6,17 @@ export default class Container<Props> extends React.Component {
     return (
       <div className="container">
         <div className="containerHeader">
-          <span className="date">{this.props.date}</span>
           <span>{this.props.title}</span>
-          <img src={this.props.source} width="35px" height="35px" />
+          <div>
+            <span className="date">{this.props.date}</span>
+            <span className="date">{this.props.day}</span>
+            <img src="/client/components/food.png" width="35px" height="35px" />
+          </div>
         </div>
-        {this.props.children}
+        <div className="containerContent">
+          {this.props.children} <br />
+          <img src={this.props.source} width="60%" height="60%" />
+        </div>
       </div>
     );
   }

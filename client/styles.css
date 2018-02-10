@@ -14,8 +14,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px 0 30px;
-  margin-bottom: 20px;
+  padding: 0 50px 0 50px;
+  margin-bottom: 40px;
   background-color: rgb(75, 119, 190);
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
@@ -34,26 +34,46 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 70%;
   padding: 30px;
   color: #777;
   background-color: rgb(255, 255, 255);
   margin-bottom: 20px;
-  max-height: 70px;
+  max-height: auto;
   overflow: hidden;
+  border-top: rgb(75, 119, 190) solid 5px;
 
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
 }
+
 .containerHeader {
   font-size: 20px;
   color: #222;
   width: 100%;
   margin-bottom: 20px;
-  border-bottom: 3px solid #ecf0f1;
+  padding-bottom: 2px;
+  border-bottom: 3px solid rgb(230, 230, 230);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.containerHeader span {
+  margin-right: 5px;
+}
+
+.containerContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerContent img {
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .date {
