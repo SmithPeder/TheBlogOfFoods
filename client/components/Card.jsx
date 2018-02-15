@@ -5,24 +5,17 @@ import Content from './Content.jsx';
 export default class Card<Props> extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { collaped: true, max: '30px' };
+    this.state = { collaped: true };
   }
 
   collapse() {
-    this.state.collaped = !this.state.collaped;
-    this.state.collaped
-      ? this.setState({ max: '30px' })
-      : this.setState({ max: '400px' });
-    console.log(this.state.max);
+    this.setState(state => ({ collaped: !state.collaped }));
+    console.log(this.state.collaped);
   }
 
   render() {
     return (
-      <div
-        className="card"
-        style={{ maxHeight: this.state.max }}
-        onClick={this.collapse.bind(this)}
-      >
+      <div className="card" onClick={this.collapse.bind(this)}>
         <div className="cardHeader">
           <span>{this.props.title}</span>
           <div>
@@ -38,9 +31,11 @@ export default class Card<Props> extends React.Component {
             />
           </div>
         </div>
-        <Content content={this.props.content} list={this.props.list}>
-          <img src={this.props.source} />
-        </Content>
+        {this.state.collaped && (
+          <Content content={this.props.content} list={this.props.list}>
+            <img src={this.props.source} />
+          </Content>
+        )}
       </div>
     );
   }

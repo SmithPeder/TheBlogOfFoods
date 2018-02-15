@@ -100,5 +100,22 @@
       "4": "Test4",
       "5": "Test5"
     }
+  },
+  {
+    "id": "20180215_180627",
+    "show": true,
+    "title": "Test",
+    "when": "15.feb 2018",
+    "time": "Kl. 18:06",
+    "day": "Thursday",
+    "source": "client/images/20180215_180627.jpg",
+    "content": "...",
+    "list": {
+      "1": "Test1",
+      "2": "Test2",
+      "3": "Test3",
+      "4": "Test4",
+      "5": "Test5"
+    }
   }
 ]
