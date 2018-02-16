@@ -16,7 +16,7 @@ export default class Card<Props> extends React.Component {
     return (
       <div className="card" onClick={this.collapse.bind(this)}>
         <div className="cardHeader">
-          <span>{this.props.title}</span>
+          <h1>{this.props.title}</h1>
           <span className="details">{this.props.time}</span>
         </div>
         {this.state.collaped && (
