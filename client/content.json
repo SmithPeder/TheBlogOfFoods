@@ -1,121 +1,47 @@
 [
   {
-    "id": "20180209_221515",
+    "id": "20180209221515",
+    "path": "20180209_221515",
     "show": true,
-    "title": "Eple",
     "when": "09.feb 2018",
     "time": "Kl. 22:15",
     "day": "Friday",
-    "source": "client/images/20180209_221515.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "list": {
-      "1": "Test1",
-      "2": "Test2",
-      "3": "Test3",
-      "4": "Test4",
-      "5": "Test5"
-    }
+    "source": "client/images/20180209_221515.jpg"
   },
   {
-    "id": "20180209_221737",
+    "id": "20180215180627",
+    "path": "20180215_180627",
     "show": true,
-    "title": "Appelsin",
-    "when": "09.feb 2018",
-    "time": "Kl. 22:17",
-    "day": "Friday",
-    "source": "client/images/20180209_221737.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "list": {
-      "1": "Test1",
-      "2": "Test2",
-      "3": "Test3",
-      "4": "Test4",
-      "5": "Test5"
-    }
-  },
-  {
-    "id": "20180409_221737",
-    "show": true,
-    "title": "Appelsin2.0",
-    "when": "09.apr 2018",
-    "time": "Kl. 22:17",
-    "day": "Monday",
-    "source": "client/images/20180409_221737.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "list": {
-      "1": "Test1",
-      "2": "Test2",
-      "3": "Test3",
-      "4": "Test4",
-      "5": "Test5"
-    }
-  },
-  {
-    "id": "20180309_221515",
-    "show": true,
-    "title": "Eple2.0",
-    "when": "09.mar 2018",
-    "time": "Kl. 22:15",
-    "day": "Friday",
-    "source": "client/images/20180309_221515.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "list": {
-      "1": "Test1",
-      "2": "Test2",
-      "3": "Test3",
-      "4": "Test4",
-      "5": "Test5"
-    }
-  },
-  {
-    "id": "20180311_221515",
-    "show": true,
-    "title": "Test1",
-    "when": "11.mar 2018",
-    "time": "Kl. 22:15",
-    "day": "Sunday",
-    "source": "client/images/20180311_221515.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "list": {
-      "1": "Test1",
-      "2": "Test2",
-      "3": "Test3",
-      "4": "Test4",
-      "5": "Test5"
-    }
-  },
-  {
-    "id": "20180408_211737",
-    "show": true,
-    "title": "Test2",
-    "when": "08.apr 2018",
-    "time": "Kl. 21:17",
-    "day": "Sunday",
-    "source": "client/images/20180408_211737.jpg",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    "list": {
-      "1": "Test1",
-      "2": "Test2",
-      "3": "Test3",
-      "4": "Test4",
-      "5": "Test5"
-    }
-  },
-  {
-    "id": "20180215_180627",
-    "show": true,
-    "title": "Test",
     "when": "15.feb 2018",
     "time": "Kl. 18:06",
     "day": "Thursday",
-    "source": "client/images/20180215_180627.jpg",
-    "content": "...",
-    "list": {
-      "1": "Test1",
-      "2": "Test2",
-      "3": "Test3",
-      "4": "Test4",
-      "5": "Test5"
-    }
+    "source": "client/images/20180215_180627.jpg"
+  },
+  {
+    "id": "20180215221515",
+    "path": "20180215_221515",
+    "show": true,
+    "when": "15.feb 2018",
+    "time": "Kl. 22:15",
+    "day": "Thursday",
+    "source": "client/images/20180215_221515.jpg"
+  },
+  {
+    "id": "20180209221737",
+    "path": "20180209_221737",
+    "show": true,
+    "when": "09.feb 2018",
+    "time": "Kl. 22:17",
+    "day": "Friday",
+    "source": "client/images/20180209_221737.jpg"
+  },
+  {
+    "id": "20180215221737",
+    "path": "20180215_221737",
+    "show": true,
+    "when": "15.feb 2018",
+    "time": "Kl. 22:17",
+    "day": "Thursday",
+    "source": "client/images/20180215_221737.jpg"
   }
 ]

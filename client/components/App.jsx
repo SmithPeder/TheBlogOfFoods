@@ -1,24 +1,24 @@
 import React from 'react';
 import style from '../styles.css';
 import Card from './Card.jsx';
+import Section from './Section.jsx';
 let data = require('../content.json');
 
 export default class App extends React.Component {
   render() {
-    let cards = data.reverse().map(function(cards) {
+    let cards = data.reverse().map(function(c) {
       return (
-        <Card
-          title={cards.title}
-          date={cards.when}
-          time={cards.time}
-          day={cards.day}
-          source={cards.source}
-          content={cards.content}
-          list={cards.list}
-        />
+        <Section>
+          <Card
+            id={c.id}
+            date={c.when}
+            time={c.time}
+            day={c.day}
+            source={c.source}
+          />
+        </Section>
       );
     });
-
     return (
       <div>
         <div className="header">

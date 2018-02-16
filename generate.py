@@ -15,6 +15,7 @@ def parsePictureSoruce(element):
     day = element[6:8]
     hour = element[9:11]
     minute = element[11:13]
+    id = element[:8] + element[9:]
 
     #Create the "when" string
     when = day + "." + monthString + " " + year
@@ -25,27 +26,15 @@ def parsePictureSoruce(element):
     #Get the weekday
     temp = datetime.date(int(year), int(monthInt), int(day))
     weekday = calendar.day_name[temp.weekday()]
-    print("\n\n")
-    print("New images has been found")
-    print("-------------------------------------")
-    title = input("Title for img with id " + element + ": ")
 
     return {
-        "id": element,
+        "id": id,
+        "path": element,
         "show" : True,
-        "title": title,
         "when": when,
         "time": time,
         "day": weekday,
-        "source": source,
-        "content": "...",
-        "list": {
-            "1": "Test1",
-            "2": "Test2",
-            "3": "Test3",
-            "4": "Test4",
-            "5": "Test5"
-        }
+        "source": source
     }
 
 file_paths = [f for f in listdir("./client/images") if isfile(join("./client/images", f))]
@@ -55,6 +44,7 @@ for file in file_paths:
 
 json_file = json.load(open('./client/content.json'))
 json_ids = []
+
 for key,value in enumerate(json_file):
     json_ids.append(value["id"])
 

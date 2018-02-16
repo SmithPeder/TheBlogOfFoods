@@ -37,18 +37,20 @@ html {
   width: 100%;
 }
 
+.section {
+}
+
 .card {
   width: 50%;
   max-width: 1000px;
   min-width: 700px;
-  padding: 30px;
+  padding: 20px;
   margin-left: 25%;
   margin-right: 25%;
   color: #777;
   background-color: rgb(255, 255, 255);
   margin-bottom: 20px;
   border-top: rgb(75, 119, 190) solid 5px;
-  max-height: auto;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
 }
@@ -57,11 +59,9 @@ html {
   font-size: 20px;
   color: #222;
   width: 100%;
-  margin-bottom: 20px;
   padding-bottom: 2px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
 
 .cardContent {
@@ -81,6 +81,7 @@ html {
 .details {
   font-size: 15px;
   color: rgb(108, 122, 137);
+  font-family: 'Cutive Mono', monospace;
   margin-left: 5px;
   margin-right: 5px;
 }
