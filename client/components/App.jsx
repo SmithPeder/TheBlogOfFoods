@@ -1,10 +1,10 @@
-import React from 'react';
 import style from '../styles.css';
+import React from 'react';
 import Card from './Card.jsx';
 import Section from './Section.jsx';
+import Menu from './Menu.jsx';
 import sortBy from 'lodash/sortBy';
 import groupBy from 'lodash/groupBy';
-import Menu from './Menu.jsx';
 let data = require('../content.json');
 
 export default class App extends React.Component {
@@ -18,8 +18,10 @@ export default class App extends React.Component {
   }
 
   render() {
-    const groupings = groupBy(sortBy(data, 'id').reverse(), 'when');
-    let sections = Object.keys(groupings).map(key => (
+    const sorted = sortBy(data, 'id').reverse();
+    const groupings = groupBy(sorted, 'when');
+
+    const sections = Object.keys(groupings).map(key => (
       <Section sectionTitle={key}>
         {groupings[key].map(c => {
           return (

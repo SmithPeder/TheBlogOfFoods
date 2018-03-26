@@ -10,7 +10,7 @@ html {
 /* HEADERSECTION START */
 .header {
   display: flex;
-  min-width: 500px;
+  min-width: 400px;
   justify-content: space-between;
   align-items: center;
   padding: 0 50px 0 50px;
@@ -22,7 +22,12 @@ html {
 .headerTitle {
   font-family: 'Encode Sans Expanded', sans-serif;
   color: white;
+  font-size: 2em;
+  line-height: 2em;
+  margin: 0;
 }
+
+.menuButton,
 .menuButton img {
   width: 40px;
   height: 40px;
@@ -41,14 +46,19 @@ html {
   width: 50%;
   max-width: 1000px;
   min-width: 700px;
-  margin-bottom: 30px;
   user-select: none;
+  margin: 15px 25% 15px 25%;
+}
+
+@media only screen and (max-width: 760px) {
+  .section {
+    width: 90%;
+    min-width: 0;
+    margin: 15px 5% 15px 5%;
+  }
 }
 
 .card {
-  width: 50%;
-  max-width: 1000px;
-  min-width: 700px;
   color: #777;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
@@ -56,7 +66,7 @@ html {
 }
 
 .cardHeader {
-  height: 40px;
+  height: 60px;
   width: 100%;
   padding-bottom: 2px;
   display: flex;
@@ -89,8 +99,7 @@ html {
   font-size: 13px;
   color: rgb(108, 122, 137);
   font-family: 'Cutive Mono', monospace;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 5px 0 5px;
 }
 
 .sectiondetails {

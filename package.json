@@ -10,6 +10,7 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
+    "browser-sync": "^2.23.6",
     "css-loader": "^0.28.9",
     "firebase": "^4.10.0",
     "html-webpack-plugin": "^2.30.1",
